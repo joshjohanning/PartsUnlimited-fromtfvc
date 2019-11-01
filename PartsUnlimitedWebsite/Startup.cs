@@ -164,7 +164,7 @@ namespace PartsUnlimited
             app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new PhysicalFileProvider(
-                     Path.Combine(Directory.GetCurrentDirectory(), @"Images")),
+                     Path.Combine(Directory.GetCurrentDirectory(), @"images")),
                 RequestPath = new PathString("/images")
             });
 
