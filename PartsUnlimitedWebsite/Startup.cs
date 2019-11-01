@@ -180,7 +180,7 @@ namespace PartsUnlimited
             app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new PhysicalFileProvider(
-                     Path.Combine(Directory.GetCurrentDirectory(), @"Lib")),
+                     Path.Combine(Directory.GetCurrentDirectory(), @"lib")),
                 RequestPath = new PathString("/lib")
             });
 
